@@ -16,6 +16,12 @@ html body {
   font-family: 'Roboto', sans-serif;
 }
 
+section {
+  margin: 0;
+  padding: 0;
+  
+}
+
 .linha {
   width: 100%;
   height: 4px;
@@ -139,10 +145,29 @@ html body {
 }
 
 .area-cidade:nth-child(1){
+  animation-delay:0s;
 
 }
 .area-cidade:nth-child(2){
- animation-delay:10s;
+ animation-delay:6.6s;
+}
+.area-cidade:nth-child(3){
+  animation-delay:13.2s;
+ }
+
+.menu-mobile {
+  width: 40px;
+  height: 45px;
+  padding: 5px;
+  cursor: pointer;
+  display: none;
+}
+.menu-mobile .mudaColor {
+  width: 35px;
+  height: 3px;
+  background-color: rgb(250, 250, 250);
+  margin-top: 5px;
+  margin-bottom: 5px ;
 }
 
 /* ====== MENU 2  ====== */
@@ -207,8 +232,8 @@ align-items: center;
 
 
 .area-slider-container-img {
-  height: 444px;
-  width:650px
+  height: 27.75rem;
+  width:40.625rem;
 }
 
 .area-slider-container .area-slider-container-img .carousel-item img {
@@ -216,18 +241,18 @@ align-items: center;
 }
 
 .area-slider-container-img img {
-  height: 444px;
-  width:650px;
+  height: 27.75rem;
+  width:40.625rem;
   object-fit: revert;
 }
 
 .area-slider-container-texto {
   flex: 1;
-    height: 444px;
+  height: 27.75rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 33px;
+    padding-left: 2.062rem;
 }
 
 
@@ -235,20 +260,20 @@ align-items: center;
 .area-containerEventes {
   width: 90%;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 .events {
   width: 100%;
-  height: 35px;
+  height: 2.187rem;
   border: 1px solid #000;
 
   display: flex;
-  margin-top: 15px;
+  margin-top: 0.937rem;
 }
 
 .events .title {
-  width: 200px;
-  height: 35px;
+  width: 12.5rem;
+  height: 2.187rem;
   background: #FF0000;
 
   display: flex;
@@ -262,7 +287,7 @@ align-items: center;
 
 .events .title-city {
   width: 70%;
-  height: 35px;
+  height: 2.187rem;
 
   display: flex;
   justify-content: center;
@@ -271,7 +296,7 @@ align-items: center;
 /*======= FRASE  ===== */
 .area-frase {
   width: 100%;
-  height: 200px;
+  height: 12.5rem;
   display: flex;
   flex-direction: column;
   
@@ -283,12 +308,12 @@ align-items: center;
 }
 .area-frase h1 span {
   color: #FF0000;
-  font-size: 55px;
+  font-size: 3.437rem;
 
 }
 
 .frases-texto {
-  width: 600px;
+  width: 37.5rem;
   
 }
 
@@ -315,61 +340,61 @@ align-items: center;
 }
 
 .area-apresentacao{
-  width: 600px;
+  width: 37.5rem;
   height: 100vh;
 }
 
 .bloco-historia {
-  width: 502px;
-  height: 503px;
+  width: 31.375rem;
+  height: 31.437rem;
   background: rgb(90,57,57);
   background: linear-gradient(0deg, rgba(90,57,57,1) 0%, rgba(252,50,50,1) 99%);
 }
 .bloco-historia  h2 {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 5rem;
   color: #fff;
 }
 
 .bloco-historia p {
-  padding: 20px;
+  padding: 1.25rem;
   color: #fff;
   font-size: 17px;
 }
 
 .area-medalhas {
-  width: 600px;
+  width: 37.5rem;
   height: 100vh;
  
 }
 
 .bloco-img, .bloco-medalhas, .bloco-campeonatos {
   width: 100%;
-  height: 210px;
+  height: 13.125rem;
   
 }
 .bloco-img {
 
 }
 .bloco-img img {
-  width: 450px;
-  margin-left: 20px;
+  width: 28.125rem;
+  margin-left: 1.25rem;
 }
 
 .bloco-medalhas {
   background: rgb(228, 228, 228);
-  height: 196px
+  height: 12.25rem
 
 }
 .bloco-medalhas h2 {
   text-align: center;
-  padding: 70px 0px 0px 0px;
-  padding-top: 70px;
+  padding: 4.375rem 0px 0px 0px;
+  padding-top:  4.375rem ;
 }
 .bloco-numeros {
   margin: auto;
-  width: 400px;
-  height: 120px;
+  width: 25rem;
+  height: 7.5rem;
  
  
   display: flex;
@@ -379,13 +404,13 @@ align-items: center;
   text-align: center;
 }
 .b-ouro p {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
 .bloco-campeonatos {
   width: 100%;
-  height: 210px;
+  height: 13.125rem;
   background: #A93535
 }
 .bloco-campeonatos h2 {
@@ -398,7 +423,7 @@ align-items: center;
 }
 .bloco-logo {
   width: 90%;
-  height: 120px;
+  height: 13.125rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -427,8 +452,8 @@ align-items: center;
   position: absolute;
   top: -160px;
   left: 0;
-  width: 570px;
-  height: 200px;
+  width: 35.625rem;
+  height: 12.5rem;
   background-color: #010101;
 
   display: flex;
@@ -437,7 +462,7 @@ align-items: center;
 }
 #titulo-sensei h1 {
   color: #fff;
-  padding-top: 40px;
+  padding-top: 2.5rem;
 }
 #titulo-sensei h1 span {
   color: #FC3232;
@@ -455,35 +480,34 @@ align-items: center;
 }
 
 .sensei-frase {
-  width: 587px;
-  height: 500px;
+  width: 36.687rem;
+  height: 31.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
   
 }
 .bloco-sensei-frase {
-  width: 310px;
-  height: 300px;
-  ;
+  width: 19.375rem;
+  height: 18.75rem;
 }
 .sensei-frase .bloco-sensei-frase p {
- padding-top: 40px;
-  font-size: 19px;
+ padding-top: 2.5rem;
+  font-size: 1.187rem;
   color: #fff;
 }
 
 .sensei-slider {
-  width: 856px;
-  height: 500px;
+  width: 53.5rem;
+  height: 31.25rem;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
   
 }
 .sensei-slider .slider {
-  width: 650px;
-  height: 400px;
+  width: 40.625rem;
+  height: 25rem;
   position: relative;
   overflow: hidden;
 }
@@ -494,19 +518,19 @@ align-items: center;
 .area-card{
   width: 90%;
   margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
   display:flex;
   justify-content: center;
   align-items: center;
 }
 .testimonial .swiper-slide img {
-  width: 75px;
+  width: 4.687rem;
 }
 
 
 .area-card .box {
-  width: 500px;
+  width: 31.25rem;
  
   display: flex;
   flex-direction: column;
@@ -516,16 +540,16 @@ align-items: center;
   border: 1px solid #ccc;
 
   padding: 1.625rem 1rem;
-  box-shadow: 0px 0px 12px rgb(0 0 0 / 8%);
+  box-shadow: 0px 0px 0.75rem rgb(0 0 0 / 8%);
   border-radius: 0.25rem;
 
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 0.937rem;
+  margin-right: 0.937rem;
   
 }
 
 .area-card .box img {
-  width: 75px;
+  width: 4.687rem;
 }
 
 .area-card .box p {
@@ -542,19 +566,19 @@ align-items: center;
 #atletas {
  
   width: 100%;
-  height: 100vh;
+  height: 660px;
   background-image: url('assets/image/sla/bg-atleta.jpg');
   background-color: aqua;
 }
 .bg-atleta {
   width: 100%;
-  height: 100vh;
+  height: 660px;
   background-color: rgba(0, 0, 0, 0.637);
 }
 
 #atletas h1 {
   text-align: center;
-  padding-top: 75px;
+  padding-top: 4.687rem;
   color: #fff;
 }
 #atletas h1 span {
@@ -564,7 +588,7 @@ align-items: center;
 
 .area-atletas {
   width: 80%;
-  height: 500px;
+  height: 31.25rem;
   
   margin: auto;
  
@@ -575,20 +599,20 @@ align-items: center;
 .con-atleta {
  
   position: relative;
-  height: 450px;
+  height: 28.125rem;
   width: 100%;
 
 }
 
 #atletas .area-atletas .swiper-container .swiper-slide .swiper-slide {
-  width: 300px;
+  width: 18.75rem;
 }
 
 
 /* ==== FOTOS ======= */
 #locais {
   width: 100%;
-  height: 630px;
+  height: 39.375rem;
 
 }
 
@@ -599,41 +623,41 @@ align-items: center;
   margin: auto;
 }
 .fotos-container h2 {
-  padding: 80px 0px 20px 0px;
+  padding: 5rem 0px 1.25rem 0px;
   color: #000000;
   text-align: center;
 }
 
 .bloco-foto-img {
   width: 100%;
-  height: 400px;
+  height: 25rem;
  
   display: flex;
   justify-content: center;
 }
 
 .bloco-foto-img .card {
-  margin-right: 10px;
-  margin-left: 10px;
-  box-shadow: 0px 0px 12px rgb(0 0 0 / 8%);
-  height: 430px;
+  margin-right: 0.625rem;
+  margin-left: 0.625rem;
+  box-shadow: 0px 0px 0.75rem rgb(0 0 0 / 8%);
+  height: 26.875rem;
 }
 
 .bloco-foto-img .card .card-img, .card-img-top {
-  height: 153px;
+  height: 9.562rem;
 }
 
 
 
 footer {
   width: 100%;
-  height: 220px;
+  height: 13.75rem;
   background-color: #1F1F1F;
 }
 
 .area-footer {
   width: 90%;
-  height: 220px;
+  height: 13.75rem;
   margin: auto;
   
   display: flex;
@@ -641,9 +665,9 @@ footer {
   flex-direction: column;
 }
 .areaFooter--img {
-  width: 75px;
-  height: 75px;
-  padding-top: 20px;
+  width: 4.687rem;
+  height: 4.687rem;
+  padding-top: 1.25rem;
 
 }
 .areaFooter--img img {
@@ -651,18 +675,18 @@ footer {
 }
 
 .areaFooter--menu {
-  width: 80%;
-  height: 100px;
+  width: 100%;
+  height: 6.25rem;
   display: flex;
-  padding-top: 20px;
+  padding-top: 1.25rem;
   align-items: center;
- 
+  justify-content: center;
 
 }
 
 .areaFooter--menu nav ul{
   display: flex;
-  padding-left: 220px;
+ 
   transition:  0.8s;
 
   margin: 0;
@@ -674,22 +698,22 @@ footer {
 
 .areaFooter--menu nav ul a li{
   list-style: none;
-  padding:0px 10px;
+  padding:0px 0.625rem;
   color: rgb(255, 255, 255);
-  font-size: 16px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  font-size: 1rem;
+  border-bottom: 0.125rem solid rgba(0, 0, 0, 0);
 }
 
 .areaFooter--menu nav ul a li:hover {
-  border-bottom: 2px solid #ffffff
+  border-bottom: 0.125rem solid #ffffff
 }
 
 .desenvolvedor {
   display: flex;
   align-items: center;
   float: right;
-  padding-right:50px ;
-  height: 170px;
+  padding-right:3.125rem ;
+  height: 10.625rem;
   justify-self: center;
 }
 .desenvolvedor a {
@@ -698,13 +722,2922 @@ footer {
 }
 .desenvolvedor h2 {
   color: rgb(185, 185, 185);
-  font-size: 12px;
+  font-size: 0.75rem;
   padding-top: 10px;
 }
 
 .desenvolvedor img {
-  width: 140px;
+  width: 8.75rem;
+}
+
+/* noticia display NONE */
+.area-slider-container-img h2, .area-slider-container-img p {
+  display: none;
+}
+
+
+
+.menuFixed-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height:100vh;
+  width: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F1F1F;
+
+  z-index: 120;
+  overflow: hidden;
+  transition: display 2s;
+
+ 
+  
+}
+
+.menuFixed-mobile nav ul  {
+  padding: 0;
+}
+
+.menuFixed-mobile nav ul a {
+  text-decoration: none;
+  color:#fff;
+}
+
+.menuFixed-mobile nav ul a li {
+  list-style: none;
+  padding: 15px 0 0 5px;
+  text-align: center;
+  font-size: 28px;
+  border-bottom: 2px solid #00000000;
+}
+
+.menuFixed-mobile nav ul a li:hover {
+  border-bottom: 2px solid #ffffff;
 }
 
 
 /* ======Responsivo ====== */
+
+@media (min-width: 1200px) {
+
+  .bloco-logo {
+    height: 8.125rem;
+  }
+  .l-bloco img {
+    width:63px
+  }
+}
+
+@media (min-width: 1180px) and (max-width: 1199px) {
+  /* header */
+  .area-nome {
+    display: flex;
+  }
+  .menu-mobile {
+    display: none;
+  }
+  .bloco-logo {
+    height: 9.125rem;
+  }
+
+}
+
+@media (min-width: 1000px) and (max-width:1179px) {
+  /* header */
+  .area-nome {
+    display: flex;
+  }
+  .menu-mobile {
+    display: none;
+  }
+
+  /* about */
+  #about {
+    height: 1186px;
+  }
+
+  .about-container {
+    display: block;
+  }
+
+  .area-apresentacao {
+    width: 100%;
+    height: 41vh;
+  }
+
+  .bloco-historia {
+    width: 100%;
+    height: 19.437rem
+  }
+
+  .area-medalhas {
+    width:100%;
+  }
+
+  .bloco-campeonatos h2 {
+    text-align: center;
+  }
+
+  .bloco-logo {
+    width: 100%;
+    height: 8.125rem;
+  }
+
+  .bloco-img img {
+    margin-left: 13.25rem;
+  }
+
+  /* sensei */
+  #sensei {
+    height: 763px;
+  }
+  .sensei-bg {
+    height: 763px;
+  }
+
+  .sensei-container {
+    height:90vh;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .sensei-frase {
+    width: 100%;
+    height: 31.25rem;
+  }
+
+  .bloco-sensei-frase {
+    width: 70%;
+    height: 18.75rem;
+  }
+
+  .sensei-frase .bloco-sensei-frase p {
+    padding-top: 114px;
+    text-align: center;
+  }
+
+  .sensei-slider {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* aluno */
+  #atletas {
+    height: 659px;
+  } 
+  .area-atletas {
+    justify-content: center;
+  }
+  .con-atleta {
+    padding-left: 100px;
+  }
+
+  /* NOTICIA */
+  .area-slider-container-img {
+    width: 36.625rem;
+  }
+  .area-slider-container-img img {
+    height: 19.75rem;
+    width: 36.625rem;
+  }
+  /*  */
+  .area-slider-container-texto .conteudo p {
+    display: none;
+  }
+  /*  */
+  .area-slider-container-img p {
+    width:800px;
+    padding-top: 10px;
+    display: block;
+  }
+
+  .area-slider-container-texto  {
+    padding-top: 30px;
+    align-items: flex-start;
+  }
+
+}
+
+
+
+@media (min-width: 875px) and (max-width:1000px) {
+  /* header */
+  .area-nome {
+    display: flex;
+  }
+  .menu-mobile {
+    display: none;
+  }
+
+  /* about */
+  #about {
+    height: 1186px;
+  }
+
+  .about-container {
+    display: block;
+  }
+
+  .area-apresentacao {
+    width: 100%;
+    height: 41vh;
+  }
+
+  .bloco-historia {
+    width: 100%;
+    height: 19.437rem
+  }
+
+  .area-medalhas {
+    width:100%;
+  }
+
+  .bloco-campeonatos h2 {
+    text-align: center;
+  }
+
+  .bloco-logo {
+    width: 100%;
+    height: 8.125rem;
+  }
+
+  .bloco-img img {
+    margin-left: 13.25rem;
+  }
+
+  /* sensei */
+  #sensei {
+    height: 763px;
+  }
+  .sensei-bg {
+    height: 763px;
+  }
+
+  .sensei-container {
+    height:90vh;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .sensei-frase {
+    width: 100%;
+    height: 31.25rem;
+  }
+
+  .bloco-sensei-frase {
+    width: 70%;
+    height: 18.75rem;
+  }
+
+  .sensei-frase .bloco-sensei-frase p {
+    padding-top: 114px;
+    text-align: center;
+  }
+
+  .sensei-slider {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* aluno */ 
+  #atletas {
+    height: 659px;
+  }
+  .area-atletas {
+    justify-content: center;
+  }
+  .con-atleta {
+    padding-left: 30px;
+  }
+
+  /* NOTICIA */
+  .area-container {
+    height: 519px;
+  }
+  .area-slider-container {
+    display: block;
+    height: 491px;
+  }
+  .area-slider-container-img {
+    height: 18.75rem;
+    width: 38.625rem;
+    margin: auto;
+  }
+  .area-slider-container-img img {
+    height: 19.75rem;
+    width: 40.625rem;
+  }
+  /*  */
+  .area-slider-container-texto .conteudo p {
+    display: flex;
+  }
+  /*  */
+  .area-slider-container-img p {
+    width:800px;
+    padding-top: 10px;
+    display: none;
+  }
+
+  .area-slider-container-texto  {
+    padding-top: 30px;
+    align-items: flex-start;
+  }
+
+  /* frases frasaes */
+  .area-card {
+    flex-wrap: wrap;
+  }
+  .area-card .box {
+    height: 378px;
+    width: 22.25rem;
+    margin: 10px;
+  }
+
+}
+
+
+
+@media (min-width: 830px) and (max-width:875px) {
+  /* header */
+  .area-nome {
+    display: none;
+  }
+  .menu-mobile {
+    display: none;
+  }
+  .menu-mobile .mudaColor {
+    background-color: #000;
+  }
+
+  /* about */
+  #about {
+    height: 1186px;
+  }
+
+  .about-container {
+    display: block;
+  }
+
+  .area-apresentacao {
+    width: 100%;
+    height: 41vh;
+  }
+
+  .bloco-historia {
+    width: 100%;
+    height: 19.437rem
+  }
+
+  .area-medalhas {
+    width:100%;
+  }
+
+  .bloco-campeonatos h2 {
+    text-align: center;
+  }
+
+  .bloco-logo {
+    width: 100%;
+    height: 8.125rem;
+  }
+
+  .bloco-img img {
+    margin-left: 7.25rem
+  }
+
+  /* sensei */
+  #sensei {
+    height: 763px;
+  }
+  .sensei-bg {
+    height: 763px;
+  }
+
+  .sensei-container {
+    height:90vh;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .sensei-frase {
+    width: 100%;
+    height: 31.25rem;
+  }
+
+  .bloco-sensei-frase {
+    width: 70%;
+    height: 18.75rem;
+  }
+
+  .sensei-frase .bloco-sensei-frase p {
+    padding-top: 114px;
+    text-align: center;
+  }
+
+  .sensei-slider {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* aluno */ 
+  #atletas {
+    height: 659px;
+  }
+  .area-atletas {
+    justify-content: center;
+  }
+  .con-atleta {
+    padding-left: 0px;
+  }
+
+  /* NOTICIA */
+  .area-container {
+    height: 536px;
+  }
+  .area-slider-container {
+    display: block;
+    height: 528px;
+  }
+  .area-slider-container-img {
+    height: 18.75rem;
+    width: 38.625rem;
+    
+  }
+  .area-slider-container-img img {
+    height: 19.75rem;
+    width: 41.29rem
+  }
+  /*  */
+  .area-slider-container-texto .conteudo p {
+    display: flex;
+  }
+  /*  */
+  .area-slider-container-img p {
+    width:800px;
+    padding-top: 10px;
+    display: none;
+  }
+
+  .area-slider-container-texto  {
+    padding-top: 30px;
+    align-items: flex-start;
+    padding-left: 0px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: black;
+  }
+
+  /* frases frasaes */
+  .area-card {
+    flex-wrap: wrap;
+  }
+  .area-card .box {
+    height: 333px;
+    width: 26.25rem;
+    margin: 10px;
+  }
+
+  /* LOCAIS */
+
+  #locais {
+    height: 67.375rem;
+  }
+  .bloco-foto-img {
+    flex-wrap: wrap;
+  }
+
+  .bloco-foto-img .card {
+    margin-top: 10px;
+  }
+
+  /* EVENTOS */ 
+  .area-containerEventes {
+    padding-top: 10px;
+  }
+
+  .events {
+    flex-direction: column;
+    align-items: center;
+    height: 5.187rem;
+  }
+  .carousel-inner h5 {
+    padding-top: 6px;
+  }
+
+  /* MENUU */ 
+  #section-menu2 {
+    height: 0px;
+  }
+  #section-menu2 nav {
+    display: none;
+  }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width:829px) {
+  /* header */
+  .area-nome {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .menu-mobile .mudaColor {
+    background-color: #000;
+  }
+
+  /* about */
+  #about {
+    height: 1186px;
+  }
+
+  .about-container {
+    display: block;
+  }
+
+  .area-apresentacao {
+    width: 100%;
+    height: 310px;
+  }
+
+  .bloco-historia {
+    width: 100%;
+    height: 19.437rem
+  }
+
+  .area-medalhas {
+    width:100%;
+    height: 684px;
+  }
+
+  .bloco-campeonatos h2 {
+    text-align: center;
+  }
+
+  .bloco-logo {
+    width: 100%;
+    height: 8.125rem;
+  }
+
+  .bloco-img img {
+    margin-left: 7.25rem
+  }
+
+  /* sensei */
+  #sensei {
+    height: 763px;
+  }
+  .sensei-bg {
+    height: 763px;
+  }
+
+  .sensei-container {
+    height:711px;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .sensei-frase {
+    width: 100%;
+    height: 31.25rem;
+  }
+
+  .bloco-sensei-frase {
+    width: 70%;
+    height: 18.75rem;
+  }
+
+  .sensei-frase .bloco-sensei-frase p {
+    padding-top: 114px;
+    text-align: center;
+  }
+
+  .sensei-slider {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* aluno */ 
+  #atletas {
+    height: 659px;
+  }
+  .area-atletas {
+    justify-content: center;
+  }
+  .con-atleta {
+    padding-left: 0px;
+  }
+
+  /* NOTICIA */
+  .area-container {
+    height: 536px;
+  }
+  .area-slider-container {
+    display: block;
+    height: 528px;
+  }
+  .area-slider-container-img {
+    height: 18.75rem;
+    width: 38.625rem;
+    
+  }
+  .area-slider-container-img img {
+    height: 19.75rem;
+    width: 32.29rem;
+    margin-left: 51px;
+  }
+  /*  */
+  .area-slider-container-texto .conteudo p {
+    display: flex;
+  }
+  /*  */
+  .area-slider-container-img p {
+    width:800px;
+    padding-top: 10px;
+    display: none;
+  }
+
+  .area-slider-container-texto  {
+    padding-top: 30px;
+    align-items: flex-start;
+    padding-left: 0px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: black;
+  }
+
+  /* frases frasaes */
+  .area-card {
+    flex-wrap: wrap;
+  }
+  .area-card .box {
+    height: 333px;
+    width: 26.25rem;
+    margin: 10px;
+  }
+
+  /* LOCAIS */
+
+  #locais {
+    height: 67.375rem;
+  }
+  .bloco-foto-img {
+    flex-wrap: wrap;
+  }
+
+  .bloco-foto-img .card {
+    margin-top: 10px;
+  }
+
+  /* EVENTOS */ 
+  .area-containerEventes {
+    padding-top: 10px;
+  }
+
+  .events {
+    flex-direction: column;
+    align-items: center;
+    height: 5.187rem;
+  }
+  .carousel-inner h5 {
+    padding-top: 6px;
+  }
+
+  .events .title-city {
+    width: 99%;
+  }
+
+  /* MENUU */ 
+  #section-menu2 {
+    height: 0px;
+  }
+  #section-menu2 nav {
+    display: none;
+  }
+
+}
+
+
+
+@media (min-width: 720px) and (max-width:767px) {
+  /* header */
+  .area-nome {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .menu-mobile .mudaColor {
+    background-color: #000;
+  }
+
+  /* about */
+  #about {
+    height: 1186px;
+  }
+
+  .about-container {
+    display: block;
+    height: inherit;
+  }
+
+  .area-apresentacao {
+    width: 100%;
+    height: 41vh;
+  }
+
+  .bloco-historia {
+    width: 100%;
+    height: 21.437rem
+  }
+
+  .area-medalhas {
+    width:100%;
+    margin-top: 12px;
+  }
+
+  .bloco-campeonatos h2 {
+    text-align: center;
+  }
+
+  .bloco-logo {
+    width: 100%;
+    height: 8.125rem;
+  }
+
+  .bloco-img img {
+    margin-left: 5.25rem
+  }
+
+  /* sensei */
+  #sensei {
+    height: 763px;
+  }
+  .sensei-bg {
+    height: 763px;
+  }
+
+  .sensei-container {
+    height:90vh;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .sensei-frase {
+    width: 100%;
+    height: 31.25rem;
+  }
+
+  .bloco-sensei-frase {
+    width: 70%;
+    height: 18.75rem;
+  }
+
+  .sensei-frase .bloco-sensei-frase p {
+    padding-top: 114px;
+    text-align: center;
+  }
+
+  .sensei-slider {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* aluno */ 
+  #atletas {
+    height: 659px;
+  }
+  .area-atletas {
+    justify-content: center;
+  }
+  .con-atleta {
+    width: 92%;
+    padding-left: 0px;
+  }
+
+  .area-atletas {
+    width: 99%;
+  }
+
+  /* NOTICIA */
+  .area-container {
+    height: 536px;
+  }
+  .area-slider-container {
+    display: block;
+    height: 528px;
+  }
+  .area-slider-container-img {
+    height: 18.75rem;
+    width: 38.625rem;
+    
+  }
+  .area-slider-container-img img {
+    height: 19.75rem;
+    width: 32.29rem;
+    margin-left: 24px;
+  }
+  /*  */
+  .area-slider-container-texto .conteudo p {
+    display: flex;
+  }
+  /*  */
+  .area-slider-container-img p {
+    width:800px;
+    padding-top: 10px;
+    display: none;
+  }
+
+  .area-slider-container-texto  {
+    padding-top: 30px;
+    align-items: flex-start;
+    padding-left: 0px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: black;
+  }
+
+  /* frases frasaes */
+  .area-card {
+    flex-wrap: wrap;
+  }
+  .area-card .box {
+    height: 333px;
+    width: 26.25rem;
+    margin: 10px;
+  }
+
+  /* LOCAIS */
+
+  #locais {
+    height: 67.375rem;
+  }
+  .bloco-foto-img {
+    flex-wrap: wrap;
+  }
+
+  .bloco-foto-img .card {
+    margin-top: 10px;
+  }
+
+  /* EVENTOS */ 
+  .area-containerEventes {
+    padding-top: 10px;
+  }
+
+  .events {
+    flex-direction: column;
+    align-items: center;
+    height: 5.187rem;
+  }
+  .carousel-inner h5 {
+    padding-top: 6px;
+  }
+
+  .events .title-city {
+    width: 99%;
+  }
+
+  /* MENUU */ 
+  #section-menu2 {
+    height: 40px;
+  }
+  #section-menu2 nav {
+    display: none;
+  }
+
+}
+
+
+
+@media (min-width: 701px) and (max-width:719px) {
+  /* header */
+  .area-nome {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .menu-mobile .mudaColor {
+    background-color: #000;
+  }
+
+  /* about */
+  #about {
+    height: 1186px;
+  }
+
+  .about-container {
+    display: block;
+    height: inherit;
+  }
+
+  .area-apresentacao {
+    width: 100%;
+    height: 41vh;
+  }
+
+  .bloco-historia {
+    width: 100%;
+    height: 21.437rem
+  }
+
+  .area-medalhas {
+    width:100%;
+    margin-top: 12px;
+  }
+
+  .bloco-campeonatos h2 {
+    text-align: center;
+  }
+
+  .bloco-logo {
+    width: 100%;
+    height: 8.125rem;
+  }
+
+  .bloco-img img {
+    margin-left: 5.25rem
+  }
+
+  /* sensei */
+  #sensei {
+    height: 763px;
+  }
+  .sensei-bg {
+    height: 763px;
+  }
+
+  .sensei-container {
+    height:90vh;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .sensei-frase {
+    width: 100%;
+    height: 31.25rem;
+  }
+
+  .bloco-sensei-frase {
+    width: 70%;
+    height: 18.75rem;
+  }
+
+  .sensei-frase .bloco-sensei-frase p {
+    padding-top: 114px;
+    text-align: center;
+  }
+
+  .sensei-slider {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* aluno */ 
+  #atletas {
+    height: 659px;
+  }
+  .area-atletas {
+    justify-content: center;
+  }
+  .con-atleta {
+    width: 92%;
+    padding-left: 0px;
+  }
+
+  .area-atletas {
+    width: 99%;
+  }
+
+  /* NOTICIA */
+  .area-container {
+    height: 536px;
+  }
+  .area-slider-container {
+    display: block;
+    height: 528px;
+  }
+  .area-slider-container-img {
+    height: 18.75rem;
+    width: 38.625rem;
+    
+  }
+  .area-slider-container-img img {
+    height: 19.75rem;
+    width: 32.29rem;
+    margin-left: 24px;
+  }
+  /*  */
+  .area-slider-container-texto .conteudo p {
+    display: flex;
+  }
+  /*  */
+  .area-slider-container-img p {
+    width:800px;
+    padding-top: 10px;
+    display: none;
+  }
+
+  .area-slider-container-texto  {
+    padding-top: 30px;
+    align-items: flex-start;
+    padding-left: 0px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: black;
+  }
+
+  /* frases frasaes */
+  .area-card {
+    flex-wrap: wrap;
+  }
+  .area-card .box {
+    height: 333px;
+    width: 26.25rem;
+    margin: 10px;
+  }
+
+  /* LOCAIS */
+
+  #locais {
+    height: 92.375rem
+  }
+  .bloco-foto-img {
+    flex-wrap: wrap;
+  }
+
+  .bloco-foto-img .card {
+    margin-top: 10px;
+  }
+
+  /* EVENTOS */ 
+  .area-containerEventes {
+    padding-top: 10px;
+  }
+
+  .events {
+    flex-direction: column;
+    align-items: center;
+    height: 5.187rem;
+  }
+  .carousel-inner h5 {
+    padding-top: 6px;
+  }
+
+  .events .title-city {
+    width: 99%;
+  }
+
+  /* MENUU */ 
+  #section-menu2 {
+    height: 40px;
+  }
+  #section-menu2 nav {
+    display: none;
+  }
+
+}
+
+
+
+@media (min-width: 610px) and (max-width:700px) {
+  /* header */
+  .area-nome {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .menu-mobile .mudaColor {
+    background-color: #000;
+  }
+
+  /* about */
+  #about {
+    height: 1186px;
+  }
+
+  .about-container {
+    display: block;
+    height: inherit;
+  }
+
+  .area-apresentacao {
+    width: 100%;
+    height: 41vh;
+  }
+
+  .bloco-historia {
+    width: 100%;
+    height: 21.437rem
+  }
+
+  .area-medalhas {
+    width:100%;
+    margin-top: 12px;
+  }
+
+  .bloco-campeonatos h2 {
+    text-align: center;
+  }
+
+  .bloco-logo {
+    width: 100%;
+    height: 8.125rem;
+  }
+
+  .bloco-img img {
+    margin-left: 1.25rem
+  }
+
+  /* sensei */
+  #sensei {
+    height: 763px;
+  }
+  .sensei-bg {
+    height: 763px;
+  }
+
+  .sensei-container {
+    height:90vh;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .sensei-frase {
+    width: 100%;
+    height: 31.25rem;
+  }
+
+  .bloco-sensei-frase {
+    width: 70%;
+    height: 18.75rem;
+  }
+
+  .sensei-frase .bloco-sensei-frase p {
+    padding-top: 114px;
+    text-align: center;
+  }
+
+  .sensei-slider {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .sensei-slider .slider {
+    width: 19.625rem;
+  }
+
+  /* aluno */ 
+  #atletas {
+    height: 659px;
+  }
+  .area-atletas {
+    justify-content: center;
+  }
+  .con-atleta {
+    width: 55%;
+    padding-left: 0px;
+  }
+
+  .area-atletas {
+    width: 99%;
+  }
+
+  /* NOTICIA */
+
+  section .section {
+    width: 9%;
+  }
+  .area-container {
+    height: 536px;
+    margin-left: 10px;
+  }
+  #carouselExampleIndicators {
+    width: 100%;
+  }
+  .area-slider-container {
+    display: block;
+    height: 528px;
+  }
+  .area-slider-container-img {
+    height: 18.75rem;
+    width: 38.625rem;
+    
+  }
+  .area-slider-container-img img {
+    height: 19.75rem;
+    width: 32.29rem;
+    margin-left: 0px;
+  }
+  /*  */
+  .area-slider-container-texto .conteudo p {
+    display: flex;
+  }
+  /*  */
+  .area-slider-container-img p {
+    width:800px;
+    padding-top: 10px;
+    display: none;
+  }
+
+  .area-slider-container-texto  {
+    padding-top: 30px;
+    align-items: flex-start;
+    padding-left: 0px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: black;
+  }
+
+  /* frases frasaes */
+  .area-card {
+    flex-wrap: wrap;
+  }
+  .area-card .box {
+    height: 333px;
+    width: 26.25rem;
+    margin: 10px;
+  }
+
+  /* LOCAIS */
+
+  #locais {
+    height: 92.375rem
+  }
+  .bloco-foto-img {
+    flex-wrap: wrap;
+  }
+
+  .bloco-foto-img .card {
+    margin-top: 10px;
+  }
+
+  /* EVENTOS */ 
+  .area-containerEventes {
+    padding-top: 10px;
+  }
+
+  .events {
+    flex-direction: column;
+    align-items: center;
+    height: 5.187rem;
+  }
+  .carousel-inner h5 {
+    padding-top: 6px;
+  }
+
+  .events .title-city {
+    width: 99%;
+  }
+
+  /* MENUU */ 
+  #section-menu2 {
+    height: 40px;
+  }
+  #section-menu2 nav {
+    display: none;
+  }
+
+}
+
+
+
+@media (min-width: 586px) and (max-width:609px) {
+  /* header */
+  .area-nome {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .menu-mobile .mudaColor {
+    background-color: #000;
+  }
+
+  /* about */
+  #about {
+    height: 1186px;
+  }
+
+  .about-container {
+    display: block;
+    height: inherit;
+  }
+
+  .area-apresentacao {
+    width: 100%;
+    height: 41vh;
+  }
+
+  .bloco-historia {
+    width: 100%;
+    height: 21.437rem
+  }
+
+  .area-medalhas {
+    width:100%;
+    margin-top: 12px;
+  }
+
+  .bloco-campeonatos h2 {
+    text-align: center;
+  }
+
+  .bloco-logo {
+    width: 100%;
+    height: 8.125rem;
+  }
+
+  .bloco-img img {
+    margin-left: 1.25rem
+  }
+
+  /* sensei */
+  #sensei {
+    height: 763px;
+  }
+
+  #titulo-sensei {
+    width: 100%;
+  }
+  .sensei-bg {
+    height: 763px;
+  }
+
+  .sensei-container {
+    height:90vh;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .sensei-frase {
+    width: 100%;
+    height: 31.25rem;
+  }
+
+  .bloco-sensei-frase {
+    width: 70%;
+    height: 18.75rem;
+  }
+
+  .sensei-frase .bloco-sensei-frase p {
+    padding-top: 114px;
+    text-align: center;
+  }
+
+  .sensei-slider {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .sensei-slider .slider {
+    width: 19.625rem;
+  }
+
+  /* aluno */ 
+  #atletas {
+    height: 659px;
+  }
+  .area-atletas {
+    justify-content: center;
+  }
+  .con-atleta {
+    width: 55%;
+    padding-left: 0px;
+  }
+
+  .area-atletas {
+    width: 99%;
+  }
+
+  /* NOTICIA */
+
+  section .section {
+    width: 9%;
+  }
+  .area-container {
+    height: 536px;
+    margin-left: 10px;
+  }
+  #carouselExampleIndicators {
+    width: 100%;
+  }
+  .area-slider-container {
+    display: block;
+    height: 528px;
+  }
+  .area-slider-container-img {
+    height: 18.75rem;
+    width: 38.625rem;
+    
+  }
+  .area-slider-container-img img {
+    height: 19.75rem;
+    width: 32.29rem;
+    margin-left: 0px;
+  }
+  /*  */
+  .area-slider-container-texto .conteudo p {
+    display: flex;
+  }
+  /*  */
+  .area-slider-container-img p {
+    width:800px;
+    padding-top: 10px;
+    display: none;
+  }
+
+  .area-slider-container-texto  {
+    padding-top: 30px;
+    align-items: flex-start;
+    padding-left: 0px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: black;
+  }
+
+  /* frases frasaes */
+  .area-card {
+    flex-wrap: wrap;
+  }
+  .area-card .box {
+    height: 333px;
+    width: 26.25rem;
+    margin: 10px;
+  }
+
+  /* LOCAIS */
+
+  #locais {
+    height: 92.375rem
+  }
+  .bloco-foto-img {
+    flex-wrap: wrap;
+  }
+
+  .bloco-foto-img .card {
+    margin-top: 10px;
+  }
+
+  /* EVENTOS */ 
+  .area-containerEventes {
+    padding-top: 10px;
+  }
+
+  .events {
+    flex-direction: column;
+    align-items: center;
+    height: 5.187rem;
+  }
+  .carousel-inner h5 {
+    padding-top: 6px;
+  }
+
+  .events .title-city {
+    width: 99%;
+  }
+
+  /* MENUU */ 
+  #section-menu2 {
+    height: 40px;
+  }
+  #section-menu2 nav {
+    display: none;
+  }
+
+}
+
+
+
+@media (min-width: 560px) and (max-width:585px) {
+  /* header */
+  .area-nome {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .menu-mobile .mudaColor {
+    background-color: #000;
+  }
+
+  /* about */
+  #about {
+    height: 1178px;
+  }
+
+  .about-container {
+    display: block;
+    height: 154vh;
+  }
+
+  .area-apresentacao {
+    width: 100%;
+    height: 41vh;
+  }
+
+  .bloco-historia {
+    width: 100%;
+    height: 24.437rem;
+  }
+
+  .area-medalhas {
+    width:100%;
+    margin-top: 55px;
+  }
+
+  .bloco-campeonatos h2 {
+    text-align: center;
+  }
+
+  .bloco-logo {
+    width: 100%;
+    height: 8.125rem;
+  }
+
+  .bloco-img img {
+    margin-left: 1.25rem
+  }
+
+  /* sensei */
+  #sensei {
+    height: 763px;
+  }
+
+  #titulo-sensei {
+    width: 100%;
+  }
+  .sensei-bg {
+    height: 763px;
+  }
+
+  .sensei-container {
+    height:90vh;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .sensei-frase {
+    width: 100%;
+    height: 31.25rem;
+  }
+
+  .bloco-sensei-frase {
+    width: 70%;
+    height: 18.75rem;
+  }
+
+  .sensei-frase .bloco-sensei-frase p {
+    padding-top: 114px;
+    text-align: center;
+  }
+
+  .sensei-slider {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .sensei-slider .slider {
+    width: 19.625rem;
+  }
+
+  /* aluno */ 
+  #atletas {
+    overflow: hidden;
+    height: 659px;
+  }
+  .area-atletas {
+    justify-content: center;
+  }
+  .con-atleta {
+    width: 55%;
+    padding-left: 0px;
+  }
+
+  .area-atletas {
+    width: 110%;
+  }
+
+  /* NOTICIA */
+
+  section .section {
+    width: 9%;
+  }
+  .area-container {
+    height: 536px;
+    margin-left: 10px;
+  }
+  #carouselExampleIndicators {
+    width: 100%;
+  }
+  .area-slider-container {
+    display: block;
+    height: 528px;
+  }
+  .area-slider-container-img {
+    height: 16.75rem;
+    width: 38.625rem;
+    
+  }
+  .area-slider-container-img img {
+    height: 16.75rem;
+    width: 32.29rem;
+    margin-left: 0px;
+  }
+  /*  */
+  .area-slider-container-texto .conteudo p {
+    display: flex;
+  }
+  /*  */
+  .area-slider-container-img p {
+    width:800px;
+    padding-top: 10px;
+    display: none;
+  }
+
+  .area-slider-container-texto  {
+    padding-top: 30px;
+    align-items: flex-start;
+    padding-left: 0px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: black;
+  }
+
+  /* frases frasaes */
+  .area-card {
+    flex-wrap: wrap;
+  }
+  .area-card .box {
+    height: 333px;
+    width: 26.25rem;
+    margin: 10px;
+  }
+
+  /* LOCAIS */
+
+  #locais {
+    height: 92.375rem
+  }
+  .bloco-foto-img {
+    flex-wrap: wrap;
+  }
+
+  .bloco-foto-img .card {
+    margin-top: 10px;
+  }
+
+  /* EVENTOS */ 
+  .area-containerEventes {
+    padding-top: 10px;
+  }
+
+  .events {
+    flex-direction: column;
+    align-items: center;
+    height: 5.187rem;
+  }
+  .carousel-inner h5 {
+    padding-top: 6px;
+  }
+
+  .events .title-city {
+    width: 99%;
+  }
+
+  /* MENUU */ 
+  #section-menu2 {
+    height: 40px;
+  }
+  #section-menu2 nav {
+    display: none;
+  }
+
+}
+
+
+
+
+@media (min-width: 506px) and (max-width:559px) {
+  /* header */
+  .area-nome {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .menu-mobile .mudaColor {
+    background-color: #000;
+  }
+
+  /* about */
+  #about {
+    height: 1178px;
+  }
+
+  .about-container {
+    display: block;
+    height: 154vh;
+  }
+
+  .area-apresentacao {
+    width: 100%;
+    height: 41vh;
+  }
+
+  .bloco-historia {
+    width: 100%;
+    height: 24.437rem;
+  }
+
+  .area-medalhas {
+    width:100%;
+    margin-top: 55px;
+  }
+
+  .bloco-campeonatos h2 {
+    text-align: center;
+  }
+
+  .bloco-logo {
+    width: 100%;
+    height: 8.125rem;
+  }
+
+  .bloco-img img {
+    margin-left: -1.75rem
+  }
+
+  .bloco-sensei-frase {
+    height: 21.75rem;
+  }
+
+  .sensei-frase {
+    height: 33.25rem;
+  }
+
+  .sensei-container {
+    height: 96vh;
+  }
+
+  /* sensei */
+  #sensei {
+    height: 763px;
+  }
+
+  #titulo-sensei {
+    width: 100%;
+  }
+  .sensei-bg {
+    height: 763px;
+  }
+
+  .sensei-container {
+    height:90vh;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .sensei-frase {
+    width: 100%;
+    height: 31.25rem;
+  }
+
+  .bloco-sensei-frase {
+    width: 70%;
+    height: 18.75rem;
+  }
+
+  .sensei-frase .bloco-sensei-frase p {
+    padding-top: 114px;
+    text-align: center;
+  }
+
+  .sensei-slider {
+    width: 100%;
+    justify-content: center;
+    padding-top: 43px;
+  }
+
+  .sensei-slider .slider {
+    width: 19.625rem;
+  }
+
+  /* aluno */ 
+  #atletas {
+    overflow: hidden;
+    height: 659px;
+  }
+  .area-atletas {
+    justify-content: center;
+  }
+  .con-atleta {
+    width: 61%;
+    padding-left: 0px;
+  }
+
+  .area-atletas {
+    width: 110%;
+  }
+
+  /* NOTICIA */
+
+  section .section {
+    width: 9%;
+  }
+  .area-container {
+    height: 536px;
+    margin-left: 10px;
+  }
+  #carouselExampleIndicators {
+    width: 100%;
+  }
+  .area-slider-container {
+    display: block;
+    height: 528px;
+  }
+  .area-slider-container-img {
+    height: 16.75rem;
+    width: 38.625rem;
+    
+  }
+  .area-slider-container-img img {
+    height: 16.75rem;
+    width: 32.29rem;
+    margin-left: 0px;
+  }
+  /*  */
+  .area-slider-container-texto .conteudo p {
+    display: flex;
+  }
+  /*  */
+  .area-slider-container-img p {
+    width:800px;
+    padding-top: 10px;
+    display: none;
+  }
+
+  .area-slider-container-texto  {
+    padding-top: 30px;
+    align-items: flex-start;
+    padding-left: 0px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: black;
+  }
+
+  /* frases frasaes */
+  .area-card {
+    flex-wrap: wrap;
+  }
+  .area-card .box {
+    height: 333px;
+    width: 26.25rem;
+    margin: 10px;
+  }
+
+  /* LOCAIS */
+
+  #locais {
+    height: 92.375rem
+  }
+  .bloco-foto-img {
+    flex-wrap: wrap;
+  }
+
+  .bloco-foto-img .card {
+    margin-top: 10px;
+  }
+
+  /* EVENTOS */ 
+  .area-containerEventes {
+    padding-top: 10px;
+  }
+
+  .events {
+    flex-direction: column;
+    align-items: center;
+    height:7.187rem
+  }
+  .carousel-inner h5 {
+    padding-top: 6px;
+    text-align: center;
+  }
+
+  .events .title-city {
+    width: 99%;
+  }
+
+  /* MENUU */ 
+  #section-menu2 {
+    height: 40px;
+  }
+  #section-menu2 nav {
+    display: none;
+  }
+
+}
+
+
+
+@media (min-width: 485px) and (max-width:505px) {
+  /* header */
+  .area-nome {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .menu-mobile .mudaColor {
+    background-color: #000;
+  }
+
+  /* about */
+  #about {
+    height: 1192px;
+  }
+
+  .about-container {
+    display: block;
+    height: 154vh;
+  }
+
+  .area-apresentacao {
+    width: 100%;
+    height: 41vh;
+  }
+
+  .bloco-historia {
+    width: 100%;
+    height: 24.437rem;
+  }
+
+  .area-medalhas {
+    width:100%;
+    margin-top: 140px;
+  }
+
+  .bloco-campeonatos h2 {
+    text-align: center;
+  }
+
+  .bloco-logo {
+    width: 100%;
+    height: 8.125rem;
+  }
+
+  .bloco-img img {
+    margin-left: -1.75rem
+  }
+
+  .bloco-numeros {
+    justify-content: space-around;
+  }
+
+
+  /* sensei */
+  #sensei {
+    height: 774px;
+  }
+
+  #titulo-sensei {
+    width: 100%;
+  }
+  .sensei-bg {
+    height: 774px;
+  }
+
+  .sensei-container {
+    height:90vh;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .sensei-frase {
+    width: 100%;
+    height: 31.25rem;
+    margin-top: 145px;
+  }
+
+  .bloco-sensei-frase {
+    width: 70%;
+    height: 18.75rem;
+  }
+
+  .sensei-frase .bloco-sensei-frase p {
+    padding-top: 114px;
+    text-align: center;
+  }
+
+  .sensei-slider {
+    width: 100%;
+    justify-content: center;
+    padding-top: 43px;
+  }
+
+  .sensei-slider .slider {
+    width: 19.625rem;
+  }
+  
+  .bloco-sensei-frase {
+    height: 21.75rem;
+  }
+
+  .sensei-frase {
+    height: 33.25rem;
+  }
+
+  .sensei-container {
+    height: 96vh;
+  }
+
+  /* aluno */ 
+  #atletas {
+    overflow: hidden;
+    height: 659px;
+  }
+  .bg-atleta {
+    height: inherit;
+  }
+  .area-atletas {
+    justify-content: center;
+  }
+  .con-atleta {
+    width: 61%;
+    padding-left: 0px;
+  }
+
+  .area-atletas {
+    width: 110%;
+  }
+
+  /* NOTICIA */
+
+  section .section {
+    width: 9%;
+  }
+  .area-container {
+    height: auto;
+    margin-left: 10px;
+  }
+  #carouselExampleIndicators {
+    width: 100%;
+  }
+  .area-slider-container {
+    display: block;
+    height: 528px;
+  }
+  .area-slider-container-img {
+    height: 16.75rem;
+    width: 38.625rem;
+    
+  }
+  .area-slider-container-img img {
+    height: 16.75rem;
+    width: 32.29rem;
+    margin-left: 0px;
+  }
+  /*  */
+  .area-slider-container-texto .conteudo p {
+    display: flex;
+  }
+  /*  */
+  .area-slider-container-img p {
+    width:800px;
+    padding-top: 10px;
+    display: none;
+  }
+
+  .area-slider-container-texto  {
+    padding-top: 30px;
+    align-items: flex-start;
+    padding-left: 0px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: black;
+  }
+
+  /* frases frasaes */
+  .area-card {
+    flex-wrap: wrap;
+  }
+  .area-card .box {
+    height: 333px;
+    width: 26.25rem;
+    margin: 10px;
+  }
+
+  /* LOCAIS */
+
+  #locais {
+    height: 92.375rem
+  }
+  .bloco-foto-img {
+    flex-wrap: wrap;
+  }
+
+  .bloco-foto-img .card {
+    margin-top: 10px;
+  }
+
+  /* EVENTOS */ 
+  .area-containerEventes {
+    padding-top: 10px;
+  }
+
+  .events {
+    flex-direction: column;
+    align-items: center;
+    height:7.187rem
+  }
+  .carousel-inner h5 {
+    padding-top: 6px;
+    text-align: center;
+  }
+
+  .events .title-city {
+    width: 99%;
+  }
+
+  /* MENUU */ 
+  #section-menu2 {
+    height: 40px;
+  }
+  #section-menu2 nav {
+    display: none;
+  }
+
+}
+
+
+
+@media (min-width: 425px) and (max-width:484px) {
+  /* header */
+  .area-nome {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .menu-mobile .mudaColor {
+    background-color: #000;
+  }
+
+  /* about */
+  #about {
+    height: 1192px;
+  }
+
+  .about-container {
+    display: block;
+    height: 1108px;
+  }
+
+  .area-apresentacao {
+    width: 100%;
+    height: 41vh;
+  }
+
+  .bloco-historia {
+    width: 100%;
+    height: 28.437rem;
+  }
+
+  .area-medalhas {
+    width:100%;
+    margin-top: 189px;
+  }
+
+  .bloco-campeonatos h2 {
+    text-align: center;
+  }
+
+  .bloco-logo {
+    width: 100%;
+    height: 8.125rem;
+  }
+
+  .bloco-img img {
+    margin-left: -1.75rem;
+    width:26.125rem
+  }
+
+  .bloco-numeros {
+    justify-content: space-around;
+  }
+
+
+  /* sensei */
+  #sensei {
+    height: 774px;
+  }
+
+  #titulo-sensei {
+    width: 100%;
+  }
+  .sensei-bg {
+    height: 774px;
+  }
+
+  .sensei-container {
+    height:90vh;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .sensei-frase {
+    width: 100%;
+    height: 31.25rem;
+    margin-top: 145px;
+  }
+
+  .bloco-sensei-frase {
+    width: 70%;
+    height: 18.75rem;
+  }
+
+  .sensei-frase .bloco-sensei-frase p {
+    padding-top: 114px;
+    text-align: center;
+  }
+
+  .sensei-slider {
+    width: 100%;
+    justify-content: center;
+    padding-top: 43px;
+  }
+
+  .sensei-slider .slider {
+    width: 19.625rem;
+  }
+  
+  .bloco-sensei-frase {
+    height: 21.75rem;
+  }
+
+  .sensei-frase {
+    height: 33.25rem;
+  }
+
+  .sensei-container {
+    height: 96vh;
+  }
+
+  /* aluno */ 
+  #atletas {
+    overflow: hidden;
+    height: 659px;
+  }
+  .bg-atleta {
+    height: inherit;
+  }
+  .area-atletas {
+    justify-content: center;
+  }
+  .con-atleta {
+    width: 73%;
+    padding-left: 0px;
+  }
+
+  .area-atletas {
+    width: 131%;
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    margin-left: -67px;
+  }
+
+  /* NOTICIA */
+
+  section .section {
+    width: 9%;
+  }
+  .area-container {
+    height: 636px;
+    margin-left: 10px;
+  }
+  #carouselExampleIndicators {
+    width: 100%;
+  }
+  .area-slider-container {
+    display: block;
+    height: 608px;
+  }
+  .area-slider-container-img {
+    height: 16.75rem;
+    width: 38.625rem;
+    
+  }
+  .area-slider-container-img img {
+    height: 16.75rem;
+    width: 32.29rem;
+    margin-left: 0px;
+  }
+  /*  */
+  .area-slider-container-texto .conteudo p {
+    display: flex;
+  }
+  /*  */
+  .area-slider-container-img p {
+    width:800px;
+    padding-top: 10px;
+    display: none;
+  }
+
+  .area-slider-container-texto  {
+    padding-top: 30px;
+    align-items: flex-start;
+    padding-left: 0px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: black;
+  }
+
+  /* frases frasaes */
+  .area-card {
+    flex-wrap: wrap;
+  }
+  .area-card .box {
+    height: 333px;
+    width: 26.25rem;
+    margin: 10px;
+  }
+
+  /* LOCAIS */
+
+  #locais {
+    height: 92.375rem
+  }
+  .bloco-foto-img {
+    flex-wrap: wrap;
+  }
+
+  .bloco-foto-img .card {
+    margin-top: 10px;
+  }
+
+  /* EVENTOS */ 
+  .area-containerEventes {
+    padding-top: 10px;
+  }
+
+  .events {
+    flex-direction: column;
+    align-items: center;
+    height:7.187rem
+  }
+  .carousel-inner h5 {
+    padding-top: 6px;
+    text-align: center;
+  }
+
+  .events .title-city {
+    width: 99%;
+  }
+
+  /* MENUU */ 
+  #section-menu2 {
+    height: 40px;
+  }
+  #section-menu2 nav {
+    display: none;
+  }
+  .areaFooter--menu {
+    display: none;
+  }
+
+}
+
+
+
+@media (min-width: 375px) and (max-width:424px) {
+  /* header */
+  .area-nome {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .menu-mobile .mudaColor {
+    background-color: #000;
+  }
+
+  /* about */
+  #about {
+    height: 1329px;
+  }
+
+  .about-container {
+    display: block;
+    height: 1108px;
+  }
+
+  .area-apresentacao {
+    width: 100%;
+    height: 41vh;
+  }
+
+  .bloco-historia {
+    width: 100%;
+    height:30.437rem
+  }
+
+  .area-medalhas {
+    width:100%;
+    margin-top: 241px;
+  }
+
+  .bloco-campeonatos h2 {
+    text-align: center;
+  }
+
+  .bloco-logo {
+    width: 100%;
+    height: 8.125rem;
+  }
+
+  .bloco-img img {
+    margin-left: -1.75rem;
+    width:22.125rem
+  }
+
+  .bloco-numeros {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .b-ouro {
+    margin: 0 10px;
+    width: 88px;
+  }
+
+  .l-bloco img {
+    width: 58px;
+  }
+
+
+  /* sensei */
+  #sensei {
+    height: 774px;
+  }
+
+  #titulo-sensei {
+    width: 100%;
+  }
+  .sensei-bg {
+    height: 774px;
+  }
+
+  .sensei-container {
+    height:90vh;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .sensei-frase {
+    width: 100%;
+    height: 31.25rem;
+    margin-top: 145px;
+  }
+
+  .bloco-sensei-frase {
+    width: 70%;
+    height: 18.75rem;
+  }
+
+  .sensei-frase .bloco-sensei-frase p {
+    padding-top: 114px;
+    text-align: center;
+  }
+
+  .sensei-slider {
+    width: 100%;
+    justify-content: center;
+    padding-top: 43px;
+  }
+
+  .sensei-slider .slider {
+    width: 19.625rem;
+  }
+  
+  .bloco-sensei-frase {
+    height: 21.75rem;
+  }
+
+  .sensei-frase {
+    height: 33.25rem;
+  }
+
+  .sensei-container {
+    height: 96vh;
+  }
+
+  /* aluno */ 
+  #atletas {
+    overflow: hidden;
+    height: 659px;
+  }
+  .bg-atleta {
+    height: inherit;
+  }
+  .area-atletas {
+    justify-content: center;
+    margin-left: -25px;
+  }
+  .con-atleta {
+    width: 73%;
+    padding-left: 0px;
+  }
+
+  .area-atletas {
+    width: 131%;
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    margin-left: -26px;
+  }
+
+  /* NOTICIA */
+
+  section .section {
+    width: 9%;
+  }
+  .area-container {
+    height: 636px;
+    margin-left: 10px;
+  }
+  #carouselExampleIndicators {
+    width: 100%;
+  }
+  .area-slider-container {
+    display: block;
+    height: 608px;
+  }
+  .area-slider-container-img {
+    height: 16.75rem;
+    width: 38.625rem;
+    
+  }
+  .area-slider-container-img img {
+    height: 16.75rem;
+    width: 32.29rem;
+    margin-left: 0px;
+  }
+  /*  */
+  .area-slider-container-texto .conteudo p {
+    display: flex;
+  }
+  /*  */
+  .area-slider-container-img p {
+    width:800px;
+    padding-top: 10px;
+    display: none;
+  }
+
+  .area-slider-container-texto  {
+    padding-top: 30px;
+    align-items: flex-start;
+    padding-left: 0px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: black;
+  }
+
+  /* frases frasaes */
+  .area-card {
+    flex-wrap: wrap;
+  }
+  .area-card .box {
+    height: 333px;
+    width: 26.25rem;
+    margin: 10px;
+  }
+
+  /* LOCAIS */
+
+  #locais {
+    height: 92.375rem
+  }
+  .bloco-foto-img {
+    flex-wrap: wrap;
+  }
+
+  .bloco-foto-img .card {
+    margin-top: 10px;
+  }
+
+  /* EVENTOS */ 
+  .area-containerEventes {
+    padding-top: 10px;
+  }
+
+  .events {
+    flex-direction: column;
+    align-items: center;
+    height:7.187rem
+  }
+  .carousel-inner h5 {
+    padding-top: 6px;
+    text-align: center;
+  }
+
+  .events .title-city {
+    width: 99%;
+  }
+
+  /* MENUU */ 
+  #section-menu2 {
+    height: 40px;
+  }
+  #section-menu2 nav {
+    display: none;
+  }
+  .areaFooter--menu {
+    display: none;
+  }
+
+}
+
+
+
+@media (min-width: 320px) and (max-width:373px) {
+  /* header */
+  .area-nome {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .menu-mobile .mudaColor {
+    background-color: #000;
+  }
+
+  /* about */
+  #about {
+    height: 1329px;
+  }
+
+  .about-container {
+    display: block;
+    height: 1108px;
+  }
+
+  .area-apresentacao {
+    width: 100%;
+    height: 41vh;
+  }
+
+  .bloco-historia {
+    width: 100%;
+    height:35.437rem
+  }
+
+  .area-medalhas {
+    width:100%;
+    margin-top: 285px;
+  }
+
+  .bloco-campeonatos h2 {
+    text-align: center;
+  }
+
+  .bloco-logo {
+    width: 100%;
+    height: 8.125rem;
+  }
+
+  .bloco-img img {
+    margin-top: 52px;
+
+    margin-left: -1.75rem;
+    width:19.125rem
+  }
+
+  .bloco-numeros {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .b-ouro {
+    margin: 0 10px;
+    width: 88px;
+  }
+
+  .l-bloco img {
+    width: 58px;
+  }
+
+  .bloco-campeonatos h2 {
+    text-align: left;
+  }
+
+
+  /* sensei */
+  #sensei {
+    height: 774px;
+  }
+
+  #titulo-sensei {
+    width: 100%;
+  }
+  .sensei-bg {
+    height: 774px;
+  }
+
+  .sensei-container {
+    height:90vh;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .sensei-frase {
+    width: 100%;
+    height: 31.25rem;
+    margin-top: 145px;
+  }
+
+  .bloco-sensei-frase {
+    width: 87%;;
+    height: 18.75rem;
+  }
+
+  .sensei-frase .bloco-sensei-frase p {
+    padding-top: 114px;
+    text-align: center;
+  }
+
+  .sensei-slider {
+    width: 100%;
+    justify-content: center;
+    padding-top: 43px;
+  }
+
+  .sensei-slider .slider {
+    width: 19.625rem;
+    margin-left: 13px;
+  }
+  
+  .bloco-sensei-frase {
+    height: 21.75rem;
+  }
+
+  .sensei-frase {
+    height: 33.25rem;
+  }
+
+  .sensei-container {
+    height: 96vh;
+  }
+
+  .swiper-backface-hidden .swiper-slide img {
+    width:292px;
+  }
+  
+
+  /* aluno */ 
+  #atletas {
+    overflow: hidden;
+    height: 659px;
+  }
+  .bg-atleta {
+    height: inherit;
+  }
+  .area-atletas {
+    justify-content: center;
+    margin-left: -43px;;
+  }
+  .con-atleta {
+    width: 73%;
+    padding-left: 0px;
+  }
+
+  .area-atletas {
+    width: 131%;
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    margin-left: -8px;
+  }
+
+  /* NOTICIA */
+
+  section .section {
+    width: 9%;
+  }
+  .area-container {
+    height: 636px;
+    margin-left: 10px;
+  }
+  #carouselExampleIndicators {
+    width: 100%;
+  }
+  .area-slider-container {
+    display: block;
+    height: 608px;
+  }
+  .area-slider-container-img {
+    height: 16.75rem;
+    width: 17.625rem;
+    
+  }
+  .area-slider-container-img img {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+  }
+  /*  */
+  .area-slider-container-texto .conteudo p {
+    display: flex;
+  }
+  /*  */
+  .area-slider-container-img p {
+    width:800px;
+    padding-top: 10px;
+    display: none;
+  }
+
+  .area-slider-container-texto  {
+    padding-top: 30px;
+    align-items: flex-start;
+    padding-left: 0px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: black;
+  }
+
+  /* frases frasaes */
+  .area-card {
+    flex-wrap: wrap;
+  }
+  .area-card .box {
+    height: auto;
+    width: 26.25rem;
+    margin: 10px;
+  }
+
+  /* LOCAIS */
+
+  #locais {
+    height: 92.375rem
+  }
+  .bloco-foto-img {
+    flex-wrap: wrap;
+  }
+
+  .bloco-foto-img .card {
+    margin-top: 10px;
+  }
+
+  /* EVENTOS */ 
+  .area-containerEventes {
+    padding-top: 10px;
+  }
+
+  .events {
+    flex-direction: column;
+    align-items: center;
+    height:7.187rem
+  }
+  .carousel-inner h5 {
+    padding-top: 6px;
+    text-align: center;
+  }
+
+  .events .title-city {
+    width: 99%;
+  }
+
+  /* MENUU */ 
+  #section-menu2 {
+    height: 40px;
+  }
+  #section-menu2 nav {
+    display: none;
+  }
+  .areaFooter--menu {
+    display: none;
+  }
+
+}
+
+
