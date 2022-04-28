@@ -214,16 +214,16 @@ section {
 /* ======== NOTICIAS ====== */
 
 .area-container {
-width: 90%;
-height: 444px;
+width: 100%;
+height: 27.75rem;
 margin: 15px auto;
 display: flex;
 align-items: center;
 }
 
 .area-slider-container {
-  width: 90%;
-  height: 444px;
+  width: 80%;
+  height: inherit;
   margin: 15px auto;
   display: flex;
   justify-content: center;
@@ -346,7 +346,7 @@ align-items: center;
 
 .bloco-historia {
   width: 31.375rem;
-  height: 31.437rem;
+  min-height: 31.437rem;
   background: rgb(90,57,57);
   background: linear-gradient(0deg, rgba(90,57,57,1) 0%, rgba(252,50,50,1) 99%);
 }
@@ -374,11 +374,12 @@ align-items: center;
   
 }
 .bloco-img {
-
+  display: grid;
+  justify-content: center;
 }
 .bloco-img img {
   width: 28.125rem;
-  margin-left: 1.25rem;
+ 
 }
 
 .bloco-medalhas {
@@ -414,7 +415,8 @@ align-items: center;
   background: #A93535
 }
 .bloco-campeonatos h2 {
-  padding: 20px 0px 0px 50px;
+  text-align: center;
+  padding: 20px 0px 0px 0px;
   color: #fff;
 }
 .bloco-campeonatos h2 span {
@@ -422,7 +424,7 @@ align-items: center;
   font-weight: bold;
 }
 .bloco-logo {
-  width: 90%;
+  width: 100%;
   height: 13.125rem;
   display: flex;
   align-items: center;
@@ -688,7 +690,7 @@ footer {
   display: flex;
  
   transition:  0.8s;
-
+ padding-left: 0px;
   margin: 0;
 }
 
@@ -831,7 +833,7 @@ footer {
 
   .bloco-historia {
     width: 100%;
-    height: 19.437rem
+    min-height:18rem;
   }
 
   .area-medalhas {
@@ -847,9 +849,7 @@ footer {
     height: 8.125rem;
   }
 
-  .bloco-img img {
-    margin-left: 13.25rem;
-  }
+ 
 
   /* sensei */
   #sensei {
@@ -949,7 +949,7 @@ footer {
 
   .bloco-historia {
     width: 100%;
-    height: 19.437rem
+    min-height: 300px;
   }
 
   .area-medalhas {
@@ -965,9 +965,7 @@ footer {
     height: 8.125rem;
   }
 
-  .bloco-img img {
-    margin-left: 13.25rem;
-  }
+  
 
   /* sensei */
   #sensei {
@@ -1089,7 +1087,7 @@ footer {
 
   .bloco-historia {
     width: 100%;
-    height: 19.437rem
+    min-height: 300px;
   }
 
   .area-medalhas {
@@ -1105,9 +1103,7 @@ footer {
     height: 8.125rem;
   }
 
-  .bloco-img img {
-    margin-left: 7.25rem
-  }
+  
 
   /* sensei */
   #sensei {
@@ -1231,7 +1227,7 @@ footer {
 
   /* MENUU */ 
   #section-menu2 {
-    height: 0px;
+    height: 50px;
   }
   #section-menu2 nav {
     display: none;
@@ -1269,7 +1265,7 @@ footer {
 
   .bloco-historia {
     width: 100%;
-    height: 19.437rem
+    min-height: 300px;
   }
 
   .area-medalhas {
@@ -1286,9 +1282,7 @@ footer {
     height: 8.125rem;
   }
 
-  .bloco-img img {
-    margin-left: 7.25rem
-  }
+ 
 
   /* sensei */
   #sensei {
@@ -1345,13 +1339,13 @@ footer {
   }
   .area-slider-container-img {
     height: 18.75rem;
-    width: 38.625rem;
+    width: 100%;
     
   }
   .area-slider-container-img img {
     height: 19.75rem;
-    width: 32.29rem;
-    margin-left: 51px;
+    width: 100%;
+    
   }
   /*  */
   .area-slider-container-texto .conteudo p {
@@ -1417,7 +1411,7 @@ footer {
 
   /* MENUU */ 
   #section-menu2 {
-    height: 0px;
+    height: 50px;
   }
   #section-menu2 nav {
     display: none;
@@ -1456,7 +1450,7 @@ footer {
 
   .bloco-historia {
     width: 100%;
-    height: 21.437rem
+    min-height: 300px;
   }
 
   .area-medalhas {
@@ -1473,9 +1467,7 @@ footer {
     height: 8.125rem;
   }
 
-  .bloco-img img {
-    margin-left: 5.25rem
-  }
+  
 
   /* sensei */
   #sensei {
@@ -1537,13 +1529,13 @@ footer {
   }
   .area-slider-container-img {
     height: 18.75rem;
-    width: 38.625rem;
+    width: 100%;
     
   }
   .area-slider-container-img img {
     height: 19.75rem;
-    width: 32.29rem;
-    margin-left: 24px;
+    width: 100%;
+    
   }
   /*  */
   .area-slider-container-texto .conteudo p {
@@ -1648,7 +1640,7 @@ footer {
 
   .bloco-historia {
     width: 100%;
-    height: 21.437rem
+    min-height: 300px;
   }
 
   .area-medalhas {
@@ -1665,9 +1657,7 @@ footer {
     height: 8.125rem;
   }
 
-  .bloco-img img {
-    margin-left: 5.25rem
-  }
+  
 
   /* sensei */
   #sensei {
@@ -1729,13 +1719,13 @@ footer {
   }
   .area-slider-container-img {
     height: 18.75rem;
-    width: 38.625rem;
+    width: 100%;
     
   }
   .area-slider-container-img img {
     height: 19.75rem;
-    width: 32.29rem;
-    margin-left: 24px;
+    width: 100%;
+    
   }
   /*  */
   .area-slider-container-texto .conteudo p {
@@ -1771,7 +1761,7 @@ footer {
   /* LOCAIS */
 
   #locais {
-    height: 92.375rem
+    height: 68.375rem
   }
   .bloco-foto-img {
     flex-wrap: wrap;
@@ -1840,7 +1830,8 @@ footer {
 
   .bloco-historia {
     width: 100%;
-    height: 21.437rem
+    min-height: 300px;
+
   }
 
   .area-medalhas {
@@ -1857,9 +1848,7 @@ footer {
     height: 8.125rem;
   }
 
-  .bloco-img img {
-    margin-left: 1.25rem
-  }
+  
 
   /* sensei */
   #sensei {
@@ -1922,7 +1911,7 @@ footer {
   }
   .area-container {
     height: 536px;
-    margin-left: 10px;
+   
   }
   #carouselExampleIndicators {
     width: 100%;
@@ -1933,13 +1922,13 @@ footer {
   }
   .area-slider-container-img {
     height: 18.75rem;
-    width: 38.625rem;
+    width: 100%;
     
   }
   .area-slider-container-img img {
     height: 19.75rem;
-    width: 32.29rem;
-    margin-left: 0px;
+    width: 100%;
+    
   }
   /*  */
   .area-slider-container-texto .conteudo p {
@@ -2044,7 +2033,7 @@ footer {
 
   .bloco-historia {
     width: 100%;
-    height: 21.437rem
+    min-height: 300px;
   }
 
   .area-medalhas {
@@ -2061,9 +2050,7 @@ footer {
     height: 8.125rem;
   }
 
-  .bloco-img img {
-    margin-left: 1.25rem
-  }
+  
 
   /* sensei */
   #sensei {
@@ -2130,7 +2117,7 @@ footer {
   }
   .area-container {
     height: 536px;
-    margin-left: 10px;
+   
   }
   #carouselExampleIndicators {
     width: 100%;
@@ -2141,13 +2128,12 @@ footer {
   }
   .area-slider-container-img {
     height: 18.75rem;
-    width: 38.625rem;
+    width: 100%
     
   }
   .area-slider-container-img img {
     height: 19.75rem;
-    width: 32.29rem;
-    margin-left: 0px;
+    width: 100%
   }
   /*  */
   .area-slider-container-texto .conteudo p {
@@ -2252,7 +2238,8 @@ footer {
 
   .bloco-historia {
     width: 100%;
-    height: 24.437rem;
+    min-height: 300px;
+
   }
 
   .area-medalhas {
@@ -2269,9 +2256,7 @@ footer {
     height: 8.125rem;
   }
 
-  .bloco-img img {
-    margin-left: 1.25rem
-  }
+  
 
   /* sensei */
   #sensei {
@@ -2339,7 +2324,7 @@ footer {
   }
   .area-container {
     height: 536px;
-    margin-left: 10px;
+   
   }
   #carouselExampleIndicators {
     width: 100%;
@@ -2350,13 +2335,12 @@ footer {
   }
   .area-slider-container-img {
     height: 16.75rem;
-    width: 38.625rem;
+    width:100%
     
   }
   .area-slider-container-img img {
     height: 16.75rem;
-    width: 32.29rem;
-    margin-left: 0px;
+    width: 100%
   }
   /*  */
   .area-slider-container-texto .conteudo p {
@@ -2462,7 +2446,8 @@ footer {
 
   .bloco-historia {
     width: 100%;
-    height: 24.437rem;
+    min-height: 300px;
+
   }
 
   .area-medalhas {
@@ -2479,9 +2464,7 @@ footer {
     height: 8.125rem;
   }
 
-  .bloco-img img {
-    margin-left: -1.75rem
-  }
+  
 
   .bloco-sensei-frase {
     height: 21.75rem;
@@ -2562,7 +2545,7 @@ footer {
   }
   .area-container {
     height: 536px;
-    margin-left: 10px;
+    
   }
   #carouselExampleIndicators {
     width: 100%;
@@ -2573,13 +2556,12 @@ footer {
   }
   .area-slider-container-img {
     height: 16.75rem;
-    width: 38.625rem;
+    width: 100%
     
   }
   .area-slider-container-img img {
     height: 16.75rem;
-    width: 32.29rem;
-    margin-left: 0px;
+    width: 100%
   }
   /*  */
   .area-slider-container-texto .conteudo p {
@@ -2685,7 +2667,8 @@ footer {
 
   .bloco-historia {
     width: 100%;
-    height: 24.437rem;
+    min-height: 300px;
+
   }
 
   .area-medalhas {
@@ -2702,9 +2685,7 @@ footer {
     height: 8.125rem;
   }
 
-  .bloco-img img {
-    margin-left: -1.75rem
-  }
+  
 
   .bloco-numeros {
     justify-content: space-around;
@@ -2764,7 +2745,7 @@ footer {
   }
 
   .sensei-container {
-    height: 96vh;
+    height: 520px;
   }
 
   /* aluno */ 
@@ -2794,7 +2775,6 @@ footer {
   }
   .area-container {
     height: auto;
-    margin-left: 10px;
   }
   #carouselExampleIndicators {
     width: 100%;
@@ -2805,13 +2785,13 @@ footer {
   }
   .area-slider-container-img {
     height: 16.75rem;
-    width: 38.625rem;
+    width: 100%
     
   }
   .area-slider-container-img img {
     height: 16.75rem;
-    width: 32.29rem;
-    margin-left: 0px;
+    width: 100%;
+    
   }
   /*  */
   .area-slider-container-texto .conteudo p {
@@ -2902,7 +2882,7 @@ footer {
 
   /* about */
   #about {
-    height: 1192px;
+    height: 1275px;
   }
 
   .about-container {
@@ -2997,7 +2977,7 @@ footer {
   }
 
   .sensei-container {
-    height: 96vh;
+    height: 520px;
   }
 
   /* aluno */ 
@@ -3031,7 +3011,7 @@ footer {
   }
   .area-container {
     height: 636px;
-    margin-left: 10px;
+    
   }
   #carouselExampleIndicators {
     width: 100%;
@@ -3042,13 +3022,13 @@ footer {
   }
   .area-slider-container-img {
     height: 16.75rem;
-    width: 38.625rem;
+    width: 100%
     
   }
   .area-slider-container-img img {
     height: 16.75rem;
-    width: 32.29rem;
-    margin-left: 0px;
+    width: 100%;
+    
   }
   /*  */
   .area-slider-container-texto .conteudo p {
@@ -3122,6 +3102,10 @@ footer {
   }
   .areaFooter--menu {
     display: none;
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    margin-left: -6px;
   }
 
 }
@@ -3247,7 +3231,7 @@ footer {
   }
 
   .sensei-container {
-    height: 96vh;
+     height: 520px;
   }
 
   /* aluno */ 
@@ -3282,7 +3266,7 @@ footer {
   }
   .area-container {
     height: 636px;
-    margin-left: 10px;
+    
   }
   #carouselExampleIndicators {
     width: 100%;
@@ -3293,13 +3277,12 @@ footer {
   }
   .area-slider-container-img {
     height: 16.75rem;
-    width: 38.625rem;
+    width: 100%
     
   }
   .area-slider-container-img img {
     height: 16.75rem;
-    width: 32.29rem;
-    margin-left: 0px;
+    width:100%;
   }
   /*  */
   .area-slider-container-texto .conteudo p {
@@ -3408,12 +3391,13 @@ footer {
 
   .bloco-historia {
     width: 100%;
-    height:35.437rem
+    min-height: 300px;
+
   }
 
   .area-medalhas {
     width:100%;
-    margin-top: 285px;
+    margin-top: 250px;
   }
 
   .bloco-campeonatos h2 {
@@ -3505,7 +3489,7 @@ footer {
   }
 
   .sensei-container {
-    height: 96vh;
+    height: 520px;
   }
 
   .swiper-backface-hidden .swiper-slide img {
@@ -3545,7 +3529,7 @@ footer {
   }
   .area-container {
     height: 636px;
-    margin-left: 10px;
+    
   }
   #carouselExampleIndicators {
     width: 100%;
@@ -3556,13 +3540,13 @@ footer {
   }
   .area-slider-container-img {
     height: 16.75rem;
-    width: 17.625rem;
+    width: 100%
     
   }
   .area-slider-container-img img {
     height: 100%;
     width: 100%;
-    margin-left: 0px;
+    
   }
   /*  */
   .area-slider-container-texto .conteudo p {
